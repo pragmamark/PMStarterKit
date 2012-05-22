@@ -13,6 +13,11 @@
 		56BDA2D1156C24F50091ECEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56BDA2CF156C24F50091ECEF /* InfoPlist.strings */; };
 		56BDA2D3156C24F50091ECEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BDA2D2156C24F50091ECEF /* main.m */; };
 		56BDA2D7156C24F50091ECEF /* PMSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BDA2D6156C24F50091ECEF /* PMSKAppDelegate.m */; };
+		56BDA457156C39BC0091ECEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA456156C39BC0091ECEF /* CFNetwork.framework */; };
+		56BDA459156C39C30091ECEF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA458156C39C30091ECEF /* SystemConfiguration.framework */; };
+		56BDA45B156C39C80091ECEF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA45A156C39C80091ECEF /* MobileCoreServices.framework */; };
+		56BDA45D156C39DA0091ECEF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA45C156C39DA0091ECEF /* libz.dylib */; };
+		56BDA462156C3D320091ECEF /* libPMTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA337156C2EA40091ECEF /* libPMTouch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +26,13 @@
 			containerPortal = 56BDA32F156C2EA40091ECEF /* PMTouch.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 56BDA2E9156C2C250091ECEF;
+			remoteInfo = PMTouch;
+		};
+		56BDA3FE156C35B00091ECEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56BDA32F156C2EA40091ECEF /* PMTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 56BDA2E8156C2C250091ECEF;
 			remoteInfo = PMTouch;
 		};
 /* End PBXContainerItemProxy section */
@@ -37,6 +49,10 @@
 		56BDA2D5156C24F50091ECEF /* PMSKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMSKAppDelegate.h; sourceTree = "<group>"; };
 		56BDA2D6156C24F50091ECEF /* PMSKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMSKAppDelegate.m; sourceTree = "<group>"; };
 		56BDA32F156C2EA40091ECEF /* PMTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PMTouch.xcodeproj; sourceTree = "<group>"; };
+		56BDA456156C39BC0091ECEF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		56BDA458156C39C30091ECEF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		56BDA45A156C39C80091ECEF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		56BDA45C156C39DA0091ECEF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +60,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BDA462156C3D320091ECEF /* libPMTouch.a in Frameworks */,
+				56BDA45D156C39DA0091ECEF /* libz.dylib in Frameworks */,
+				56BDA45B156C39C80091ECEF /* MobileCoreServices.framework in Frameworks */,
+				56BDA459156C39C30091ECEF /* SystemConfiguration.framework in Frameworks */,
+				56BDA457156C39BC0091ECEF /* CFNetwork.framework in Frameworks */,
+				56BDA2CB156C24F50091ECEF /* CoreGraphics.framework in Frameworks */,
 				56BDA2C7156C24F50091ECEF /* UIKit.framework in Frameworks */,
 				56BDA2C9156C24F50091ECEF /* Foundation.framework in Frameworks */,
-				56BDA2CB156C24F50091ECEF /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +94,13 @@
 		56BDA2C5156C24F50091ECEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				56BDA2C6156C24F50091ECEF /* UIKit.framework */,
-				56BDA2C8156C24F50091ECEF /* Foundation.framework */,
+				56BDA45C156C39DA0091ECEF /* libz.dylib */,
+				56BDA456156C39BC0091ECEF /* CFNetwork.framework */,
 				56BDA2CA156C24F50091ECEF /* CoreGraphics.framework */,
+				56BDA2C8156C24F50091ECEF /* Foundation.framework */,
+				56BDA45A156C39C80091ECEF /* MobileCoreServices.framework */,
+				56BDA458156C39C30091ECEF /* SystemConfiguration.framework */,
+				56BDA2C6156C24F50091ECEF /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +173,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				56BDA3FF156C35B00091ECEF /* PBXTargetDependency */,
 			);
 			name = PMStarterKit;
 			productName = PMStarterKit;
@@ -220,6 +246,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		56BDA3FF156C35B00091ECEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMTouch;
+			targetProxy = 56BDA3FE156C35B00091ECEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		56BDA2CF156C24F50091ECEF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -235,7 +269,6 @@
 		56BDA2D8156C24F50091ECEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -252,14 +285,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/PMTouch\"/**";
 			};
 			name = Debug;
 		};
 		56BDA2D9156C24F50091ECEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -270,7 +307,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/PMTouch\"/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
