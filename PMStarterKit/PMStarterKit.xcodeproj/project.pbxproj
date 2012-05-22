@@ -15,6 +15,16 @@
 		56BDA2D7156C24F50091ECEF /* PMSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BDA2D6156C24F50091ECEF /* PMSKAppDelegate.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		56BDA336156C2EA40091ECEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56BDA32F156C2EA40091ECEF /* PMTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 56BDA2E9156C2C250091ECEF;
+			remoteInfo = PMTouch;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		56BDA2C2156C24F50091ECEF /* PMStarterKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMStarterKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BDA2C6156C24F50091ECEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -26,6 +36,7 @@
 		56BDA2D4156C24F50091ECEF /* PMStarterKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMStarterKit-Prefix.pch"; sourceTree = "<group>"; };
 		56BDA2D5156C24F50091ECEF /* PMSKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMSKAppDelegate.h; sourceTree = "<group>"; };
 		56BDA2D6156C24F50091ECEF /* PMSKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMSKAppDelegate.m; sourceTree = "<group>"; };
+		56BDA32F156C2EA40091ECEF /* PMTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PMTouch.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +105,33 @@
 		56BDA2DD156C2B3C0091ECEF /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				56BDA312156C2E6E0091ECEF /* PMTouch */,
 			);
 			path = Libraries;
+			sourceTree = "<group>";
+		};
+		56BDA312156C2E6E0091ECEF /* PMTouch */ = {
+			isa = PBXGroup;
+			children = (
+				56BDA314156C2E6E0091ECEF /* PMTouch */,
+			);
+			path = PMTouch;
+			sourceTree = "<group>";
+		};
+		56BDA314156C2E6E0091ECEF /* PMTouch */ = {
+			isa = PBXGroup;
+			children = (
+				56BDA32F156C2EA40091ECEF /* PMTouch.xcodeproj */,
+			);
+			path = PMTouch;
+			sourceTree = "<group>";
+		};
+		56BDA330156C2EA40091ECEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56BDA337156C2EA40091ECEF /* libPMTouch.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,12 +174,28 @@
 			mainGroup = 56BDA2B7156C24F50091ECEF;
 			productRefGroup = 56BDA2C3156C24F50091ECEF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 56BDA330156C2EA40091ECEF /* Products */;
+					ProjectRef = 56BDA32F156C2EA40091ECEF /* PMTouch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				56BDA2C1156C24F50091ECEF /* PMStarterKit */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		56BDA337156C2EA40091ECEF /* libPMTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPMTouch.a;
+			remoteRef = 56BDA336156C2EA40091ECEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		56BDA2C0156C24F50091ECEF /* Resources */ = {
@@ -264,6 +316,7 @@
 				56BDA2DC156C24F50091ECEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

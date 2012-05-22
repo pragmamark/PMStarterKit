@@ -15,15 +15,28 @@ Installation
 ------------
 
 **Step 1**
+Clone main repository.
 
 	$ git clone git://github.com/pragmamark/PMStarterKit.git
 	
 **Step 2**
+Enter to PMStarterKit directory.
 
 	$ cd PMStarterKit
 
-**Step 2**
+**Step 3**
+Fetch "PMStarterKit" submodules after cloning.
 
-	$ git submodule update --init	
+	$ git submodule update --init
+	
+**Step 4**
+Move to PMTouch subdirectory
+
+	$ cd PMStarterKit/PMStarterKit/Libraries/PMTouch 
+	
+**Step 5**
+Fetch "PMTouch" submodules after cloning.
+
+	$ git submodule update --init
 
 That's all.
