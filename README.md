@@ -15,12 +15,15 @@ Installation
 ------------
 
 **Step 1**
+
 	git clone git://github.com/pragmamark/PMStarterKit.git
 	
 **Step 2**
+
 	$ cd PMStarterKit
 
 **Step 2**
+
 	git submodule update --init	
 
 That's all.
