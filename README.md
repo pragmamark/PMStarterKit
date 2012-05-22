@@ -9,7 +9,8 @@ Installation
 ------------
 
 **Step 1**
-`
-git clone git://github.com/pragmamark/PMStarterKit.git
+	
+	git clone git://github.com/pragmamark/PMStarterKit.git
+	
 
-`
+**Step 2**
