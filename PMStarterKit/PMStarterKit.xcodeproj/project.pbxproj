@@ -74,6 +74,7 @@
 			children = (
 				56BDA2D5156C24F50091ECEF /* PMSKAppDelegate.h */,
 				56BDA2D6156C24F50091ECEF /* PMSKAppDelegate.m */,
+				56BDA2DD156C2B3C0091ECEF /* Libraries */,
 				56BDA2CD156C24F50091ECEF /* Supporting Files */,
 			);
 			path = PMStarterKit;
@@ -88,6 +89,13 @@
 				56BDA2D4156C24F50091ECEF /* PMStarterKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56BDA2DD156C2B3C0091ECEF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,0 +1,3 @@
+[submodule "PMStarterKit/PMStarterKit/Libraries/PMTouch"]
+	path = PMStarterKit/PMStarterKit/Libraries/PMTouch
+	url = git://github.com/pragmamark/PMTouch.git
