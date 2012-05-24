@@ -20,8 +20,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Init navigation controller
+    PMSKHomeViewController *rootController = [[PMSKHomeViewController alloc] init];
+    UINavigationController *navController = [[[UINavigationController alloc] initWithRootViewController:rootController] autorelease];
+    [rootController release];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
+    self.window.rootViewController = navController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

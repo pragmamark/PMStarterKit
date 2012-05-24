@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56453F7A156EC0C90011BF8D /* PMSKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56453F78156EC0C90011BF8D /* PMSKHomeViewController.m */; };
+		56453F7B156EC0C90011BF8D /* PMSKHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56453F79156EC0C90011BF8D /* PMSKHomeViewController.xib */; };
+		56453F7F156EC2A90011BF8D /* ViewControllers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56453F7E156EC2A90011BF8D /* ViewControllers.plist */; };
+		56453F8E156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56453F8C156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.m */; };
+		56453F8F156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56453F8D156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.xib */; };
+		56453F93156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56453F91156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m */; };
+		56453F94156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56453F92156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib */; };
 		56BDA2C7156C24F50091ECEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA2C6156C24F50091ECEF /* UIKit.framework */; };
 		56BDA2C9156C24F50091ECEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA2C8156C24F50091ECEF /* Foundation.framework */; };
 		56BDA2CB156C24F50091ECEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA2CA156C24F50091ECEF /* CoreGraphics.framework */; };
@@ -38,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56453F77156EC0C90011BF8D /* PMSKHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSKHomeViewController.h; sourceTree = "<group>"; };
+		56453F78156EC0C90011BF8D /* PMSKHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSKHomeViewController.m; sourceTree = "<group>"; };
+		56453F79156EC0C90011BF8D /* PMSKHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMSKHomeViewController.xib; sourceTree = "<group>"; };
+		56453F7E156EC2A90011BF8D /* ViewControllers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ViewControllers.plist; sourceTree = "<group>"; };
+		56453F8B156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSKNSURLConnectionViewController.h; sourceTree = "<group>"; };
+		56453F8C156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSKNSURLConnectionViewController.m; sourceTree = "<group>"; };
+		56453F8D156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMSKNSURLConnectionViewController.xib; sourceTree = "<group>"; };
+		56453F90156EC7010011BF8D /* PMSKASIHTTPRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSKASIHTTPRequestViewController.h; sourceTree = "<group>"; };
+		56453F91156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSKASIHTTPRequestViewController.m; sourceTree = "<group>"; };
+		56453F92156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMSKASIHTTPRequestViewController.xib; sourceTree = "<group>"; };
 		56BDA2C2156C24F50091ECEF /* PMStarterKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMStarterKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BDA2C6156C24F50091ECEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		56BDA2C8156C24F50091ECEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,6 +91,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56453F74156EC06C0011BF8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56453F88156EC65A0011BF8D /* Networking */,
+				56453F76156EC0A00011BF8D /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		56453F75156EC0750011BF8D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				56BDA2D5156C24F50091ECEF /* PMSKAppDelegate.h */,
+				56BDA2D6156C24F50091ECEF /* PMSKAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		56453F76156EC0A00011BF8D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				56453F77156EC0C90011BF8D /* PMSKHomeViewController.h */,
+				56453F78156EC0C90011BF8D /* PMSKHomeViewController.m */,
+				56453F79156EC0C90011BF8D /* PMSKHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		56453F7C156EC22C0011BF8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56453F7D156EC26A0011BF8D /* Plists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56453F7D156EC26A0011BF8D /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				56453F7E156EC2A90011BF8D /* ViewControllers.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		56453F88156EC65A0011BF8D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				56453F89156EC69E0011BF8D /* ASIHTTPRequest */,
+				56453F8A156EC6EB0011BF8D /* NSURLConnection */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		56453F89156EC69E0011BF8D /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				56453F90156EC7010011BF8D /* PMSKASIHTTPRequestViewController.h */,
+				56453F91156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m */,
+				56453F92156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		56453F8A156EC6EB0011BF8D /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				56453F8B156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.h */,
+				56453F8C156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.m */,
+				56453F8D156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.xib */,
+			);
+			path = NSURLConnection;
+			sourceTree = "<group>";
+		};
 		56BDA2B7156C24F50091ECEF = {
 			isa = PBXGroup;
 			children = (
@@ -108,9 +198,10 @@
 		56BDA2CC156C24F50091ECEF /* PMStarterKit */ = {
 			isa = PBXGroup;
 			children = (
-				56BDA2D5156C24F50091ECEF /* PMSKAppDelegate.h */,
-				56BDA2D6156C24F50091ECEF /* PMSKAppDelegate.m */,
+				56453F75156EC0750011BF8D /* Application */,
+				56453F74156EC06C0011BF8D /* Controllers */,
 				56BDA2DD156C2B3C0091ECEF /* Libraries */,
+				56453F7C156EC22C0011BF8D /* Resources */,
 				56BDA2CD156C24F50091ECEF /* Supporting Files */,
 			);
 			path = PMStarterKit;
@@ -229,6 +320,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BDA2D1156C24F50091ECEF /* InfoPlist.strings in Resources */,
+				56453F7B156EC0C90011BF8D /* PMSKHomeViewController.xib in Resources */,
+				56453F7F156EC2A90011BF8D /* ViewControllers.plist in Resources */,
+				56453F8F156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.xib in Resources */,
+				56453F94156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +336,9 @@
 			files = (
 				56BDA2D3156C24F50091ECEF /* main.m in Sources */,
 				56BDA2D7156C24F50091ECEF /* PMSKAppDelegate.m in Sources */,
+				56453F7A156EC0C90011BF8D /* PMSKHomeViewController.m in Sources */,
+				56453F8E156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.m in Sources */,
+				56453F93156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

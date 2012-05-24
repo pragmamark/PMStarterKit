@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#import "PMSKHomeViewController.h"
 
 @interface PMSKAppDelegate : UIResponder <UIApplicationDelegate>
 
