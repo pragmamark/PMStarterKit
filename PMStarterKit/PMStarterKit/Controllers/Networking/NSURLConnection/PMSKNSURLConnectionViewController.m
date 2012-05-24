@@ -26,8 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.navigationItem.title = @"NSURLConnection";
 }
 
 - (void)viewDidUnload

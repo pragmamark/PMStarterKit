@@ -14,6 +14,8 @@
 		56453F8F156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56453F8D156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.xib */; };
 		56453F93156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56453F91156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m */; };
 		56453F94156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56453F92156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib */; };
+		56454034156EEBE30011BF8D /* PMSKPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 56454033156EEBE30011BF8D /* PMSKPlanet.m */; };
+		56454037156EED3C0011BF8D /* PMSKGalaxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56454036156EED3C0011BF8D /* PMSKGalaxy.m */; };
 		56BDA2C7156C24F50091ECEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA2C6156C24F50091ECEF /* UIKit.framework */; };
 		56BDA2C9156C24F50091ECEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA2C8156C24F50091ECEF /* Foundation.framework */; };
 		56BDA2CB156C24F50091ECEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA2CA156C24F50091ECEF /* CoreGraphics.framework */; };
@@ -55,6 +57,10 @@
 		56453F90156EC7010011BF8D /* PMSKASIHTTPRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSKASIHTTPRequestViewController.h; sourceTree = "<group>"; };
 		56453F91156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSKASIHTTPRequestViewController.m; sourceTree = "<group>"; };
 		56453F92156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMSKASIHTTPRequestViewController.xib; sourceTree = "<group>"; };
+		56454032156EEBE30011BF8D /* PMSKPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSKPlanet.h; sourceTree = "<group>"; };
+		56454033156EEBE30011BF8D /* PMSKPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSKPlanet.m; sourceTree = "<group>"; };
+		56454035156EED3C0011BF8D /* PMSKGalaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSKGalaxy.h; sourceTree = "<group>"; };
+		56454036156EED3C0011BF8D /* PMSKGalaxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSKGalaxy.m; sourceTree = "<group>"; };
 		56BDA2C2156C24F50091ECEF /* PMStarterKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMStarterKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BDA2C6156C24F50091ECEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		56BDA2C8156C24F50091ECEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -164,6 +170,25 @@
 			path = NSURLConnection;
 			sourceTree = "<group>";
 		};
+		56454030156EEB2F0011BF8D /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				56454031156EEBC10011BF8D /* Nasa */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		56454031156EEBC10011BF8D /* Nasa */ = {
+			isa = PBXGroup;
+			children = (
+				56454032156EEBE30011BF8D /* PMSKPlanet.h */,
+				56454033156EEBE30011BF8D /* PMSKPlanet.m */,
+				56454035156EED3C0011BF8D /* PMSKGalaxy.h */,
+				56454036156EED3C0011BF8D /* PMSKGalaxy.m */,
+			);
+			path = Nasa;
+			sourceTree = "<group>";
+		};
 		56BDA2B7156C24F50091ECEF = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +225,7 @@
 			children = (
 				56453F75156EC0750011BF8D /* Application */,
 				56453F74156EC06C0011BF8D /* Controllers */,
+				56454030156EEB2F0011BF8D /* Domains */,
 				56BDA2DD156C2B3C0091ECEF /* Libraries */,
 				56453F7C156EC22C0011BF8D /* Resources */,
 				56BDA2CD156C24F50091ECEF /* Supporting Files */,
@@ -339,6 +365,8 @@
 				56453F7A156EC0C90011BF8D /* PMSKHomeViewController.m in Sources */,
 				56453F8E156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.m in Sources */,
 				56453F93156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m in Sources */,
+				56454034156EEBE30011BF8D /* PMSKPlanet.m in Sources */,
+				56454037156EED3C0011BF8D /* PMSKGalaxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

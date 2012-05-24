@@ -10,5 +10,13 @@
 		<key>class</key>
 		<string>PMSKNSURLConnectionViewController</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>ASIHTTPRequest</string>
+		<key>description</key>
+		<string>Show hot to user ASIHTTPRequest</string>
+		<key>class</key>
+		<string>PMSKASIHTTPRequestViewController</string>
+	</dict>
 </array>
 </plist>

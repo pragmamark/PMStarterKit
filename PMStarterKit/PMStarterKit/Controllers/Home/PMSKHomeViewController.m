@@ -8,15 +8,13 @@
 
 #import "PMSKHomeViewController.h"
 
+
 @interface PMSKHomeViewController ()
 
 @property (retain, nonatomic) NSArray *elements;
 
 @end
 
-@interface PMSKHomeViewController ()
-
-@end
 
 @implementation PMSKHomeViewController
 
@@ -101,7 +99,7 @@
     NSDictionary *element = [self.elements objectAtIndex:indexPath.row];
     NSString *className = [element objectForKey:@"class"];
     UIViewController *controller = [[NSClassFromString(className) alloc] init];
-    
+    controller.title = [element objectForKey:@"name"];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];
 }

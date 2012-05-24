@@ -10,6 +10,18 @@
 
 #import "ASIHTTPRequest.h"
 
-@interface PMSKASIHTTPRequestViewController : UIViewController
+@interface PMSKASIHTTPRequestViewController : UIViewController <ASIHTTPRequestDelegate>
+{
+    ASIHTTPRequest  *_request;
+    UITextView      *_textView;
+}
+
+
+// Properties
+@property (retain, nonatomic) IBOutlet UITextView *textView;
+
+
+// Action Methods
+- (IBAction)getAppleTouched:(id)sender;
 
 @end

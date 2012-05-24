@@ -10,35 +10,88 @@
 
 @interface PMSKASIHTTPRequestViewController ()
 
+@property (retain, nonatomic) ASIHTTPRequest *request;
+
 @end
 
 @implementation PMSKASIHTTPRequestViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+
+#pragma mark - View Lifecycle
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload
 {
+    [self setTextView:nil];
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+
+
+#pragma mark - Memory Management
+
+- (void)dealloc 
+{
+    [_request clearDelegatesAndCancel];
+    [_request release];
+    [_textView release];
+    [super dealloc];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+}
+
+
+
+#pragma mark - Action Methods
+
+- (IBAction)getAppleTouched:(id)sender 
+{
+    NSURL *url = [NSURL URLWithString:@"http://www.apple.com"];
+    ASIHTTPRequest *request = [[ASIHTTPRequest alloc] initWithURL:url];
+    self.request = request;
+    self.request.delegate = self;
+    [self.request startAsynchronous];
+    [request release];
+}
+
+
+
+#pragma ASIHTTPRequestDelegate Methods
+
+- (void)requestStarted:(ASIHTTPRequest *)request
+{
+    NSLog(@"requestStarted: %@", request.url.absoluteString);
+}
+
+- (void)requestFinished:(ASIHTTPRequest *)request
+{
+    NSLog(@"requestFinished: %@", request.url.absoluteString);
+    self.textView.text = request.responseStatusMessage;
+}
+
+- (void)requestFailed:(ASIHTTPRequest *)request
+{
+    NSLog(@"requestFailed: %@", request.url.absoluteString);
+}
+
+
+
+#pragma mark - Properties
+
+@synthesize request = _request;
+@synthesize textView = _textView;
 
 @end
