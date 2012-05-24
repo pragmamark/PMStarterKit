@@ -2,7 +2,7 @@ PMStarterKit
 ============
 
 Pragma Mark Starter Kit
-Created by [pragmamark.org](http://pragmamark.org) - iOS Italian Community.
+Created by [pragmamark.org](http://pragmamark.org)
 
 
 Disclaimer
