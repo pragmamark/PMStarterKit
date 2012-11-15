@@ -18,5 +18,77 @@
 		<key>class</key>
 		<string>PMSKASIHTTPRequestViewController</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>Design Patterns</string>
+		<key>description</key>
+		<string>Show most importart design patterns</string>
+		<key>class</key>
+		<string>PMSKDesignPatternViewController</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>MessageUI</string>
+		<key>description</key>
+		<string>Show how to send an email</string>
+		<key>class</key>
+		<string>PMSKMessageUIViewController</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Local Notifications</string>
+		<key>description</key>
+		<string>Show how to use UILocalNotifications</string>
+		<key>class</key>
+		<string>PMSKLocalNotificationViewController</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Map Kit</string>
+		<key>description</key>
+		<string>Show how to use Maps</string>
+		<key>class</key>
+		<string>PMSKMapKitViewController</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>InApp Purchase</string>
+		<key>description</key>
+		<string>Show how to use InApp Purchase</string>
+		<key>class</key>
+		<string>PMSKInAppPurchaseViewController</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>iAd</string>
+		<key>description</key>
+		<string>Show how to use iAd</string>
+		<key>class</key>
+		<string>PMSKiAdViewController</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>AVFondation</string>
+		<key>description</key>
+		<string>Show how to play an audio file</string>
+		<key>class</key>
+		<string>PMSKAudioPlayerViewController</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>MediaPlayer</string>
+		<key>description</key>
+		<string>Show how to play an video file</string>
+		<key>class</key>
+		<string>PMSKVideoPlayerViewController</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Core Animation</string>
+		<key>description</key>
+		<string>Show a little animation</string>
+		<key>class</key>
+		<string>PMSKCoreAnimationViewController</string>
+	</dict>
 </array>
 </plist>

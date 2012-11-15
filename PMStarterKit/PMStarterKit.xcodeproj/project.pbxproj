@@ -27,6 +27,41 @@
 		56BDA45B156C39C80091ECEF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA45A156C39C80091ECEF /* MobileCoreServices.framework */; };
 		56BDA45D156C39DA0091ECEF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA45C156C39DA0091ECEF /* libz.dylib */; };
 		56BDA462156C3D320091ECEF /* libPMTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BDA337156C2EA40091ECEF /* libPMTouch.a */; };
+		6015A82316519FB3009299A4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6015A82216519FB3009299A4 /* AVFoundation.framework */; };
+		6015A82716519FF3009299A4 /* PMSKAudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6015A82516519FF3009299A4 /* PMSKAudioPlayerViewController.m */; };
+		6015A82816519FF3009299A4 /* PMSKAudioPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6015A82616519FF3009299A4 /* PMSKAudioPlayerViewController.xib */; };
+		6015A82B1651A1D9009299A4 /* fileaudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6015A82A1651A1D9009299A4 /* fileaudio.m4a */; };
+		6018D9B6163F0C9B00118481 /* PMSKiAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6018D9B4163F0C9B00118481 /* PMSKiAdViewController.m */; };
+		6018D9B7163F0C9B00118481 /* PMSKiAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6018D9B5163F0C9B00118481 /* PMSKiAdViewController.xib */; };
+		6018D9B9163F0D7300118481 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6018D9B8163F0D7300118481 /* iAd.framework */; };
+		6018D9BD163F133D00118481 /* PMSKTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6018D9BB163F133D00118481 /* PMSKTempViewController.m */; };
+		6018D9BE163F133D00118481 /* PMSKTempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6018D9BC163F133D00118481 /* PMSKTempViewController.xib */; };
+		601C6C221652DD3A0073EE98 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 601C6C211652DD3A0073EE98 /* MBProgressHUD.m */; };
+		601C6C591652F4620073EE98 /* PMSKDesignPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601C6C571652F4620073EE98 /* PMSKDesignPatternViewController.m */; };
+		601C6C5A1652F4620073EE98 /* PMSKDesignPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601C6C581652F4620073EE98 /* PMSKDesignPatternViewController.xib */; };
+		6020CF0D16530E9B002AC7AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6020CF0C16530E9B002AC7AF /* AudioToolbox.framework */; };
+		6022CADF16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022CADD16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.m */; };
+		6022CAE016515B3700B3C9C6 /* PMSKInAppPurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6022CADE16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.xib */; };
+		6022CAE216515B8B00B3C9C6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6022CAE116515B8B00B3C9C6 /* StoreKit.framework */; };
+		6046A41416518B5E00EC063D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6046A41616518B5E00EC063D /* Localizable.strings */; };
+		6046A4191651999E00EC063D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6046A4181651999D00EC063D /* MessageUI.framework */; };
+		6046A42116519A4B00EC063D /* PMSKMessageUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046A41F16519A4B00EC063D /* PMSKMessageUIViewController.m */; };
+		6046A42216519A4B00EC063D /* PMSKMessageUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6046A42016519A4B00EC063D /* PMSKMessageUIViewController.xib */; };
+		6057EE4B1648482B0088CC28 /* PMSKLocalNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057EE491648482B0088CC28 /* PMSKLocalNotificationViewController.m */; };
+		6057EE4C1648482B0088CC28 /* PMSKLocalNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6057EE4A1648482B0088CC28 /* PMSKLocalNotificationViewController.xib */; };
+		6078B34616538A970093ACEF /* PMSKCoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6078B34416538A970093ACEF /* PMSKCoreAnimationViewController.m */; };
+		6078B34716538A970093ACEF /* PMSKCoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6078B34516538A970093ACEF /* PMSKCoreAnimationViewController.xib */; };
+		6078B34916538B720093ACEF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6078B34816538B720093ACEF /* QuartzCore.framework */; };
+		60C9B6531655932D006DD7A6 /* PMSKNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9B6521655932D006DD7A6 /* PMSKNavigationViewController.m */; };
+		60CCD17E16485ABE00577CB5 /* PMSKMapKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CCD17C16485ABE00577CB5 /* PMSKMapKitViewController.m */; };
+		60CCD17F16485ABE00577CB5 /* PMSKMapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CCD17D16485ABE00577CB5 /* PMSKMapKitViewController.xib */; };
+		60CCD18116485B7E00577CB5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CCD18016485B7E00577CB5 /* MapKit.framework */; };
+		60CCD18416485D0B00577CB5 /* PMSKMyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CCD18316485D0B00577CB5 /* PMSKMyLocation.m */; };
+		60CCD1861648610E00577CB5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CCD1851648610E00577CB5 /* CoreLocation.framework */; };
+		60E8D58D1653EC37008BAEE1 /* PMSKVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E8D58B1653EC37008BAEE1 /* PMSKVideoPlayerViewController.m */; };
+		60E8D58E1653EC37008BAEE1 /* PMSKVideoPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E8D58C1653EC37008BAEE1 /* PMSKVideoPlayerViewController.xib */; };
+		60E8D5901653ECE1008BAEE1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8D58F1653ECE1008BAEE1 /* MediaPlayer.framework */; };
+		60E8D5921653EEE8008BAEE1 /* filevideo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 60E8D5911653EEE8008BAEE1 /* filevideo.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +111,55 @@
 		56BDA458156C39C30091ECEF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		56BDA45A156C39C80091ECEF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		56BDA45C156C39DA0091ECEF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6015A82216519FB3009299A4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6015A82416519FF3009299A4 /* PMSKAudioPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKAudioPlayerViewController.h; path = AudioPlayer/PMSKAudioPlayerViewController.h; sourceTree = "<group>"; };
+		6015A82516519FF3009299A4 /* PMSKAudioPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKAudioPlayerViewController.m; path = AudioPlayer/PMSKAudioPlayerViewController.m; sourceTree = "<group>"; };
+		6015A82616519FF3009299A4 /* PMSKAudioPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKAudioPlayerViewController.xib; path = AudioPlayer/PMSKAudioPlayerViewController.xib; sourceTree = "<group>"; };
+		6015A82A1651A1D9009299A4 /* fileaudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fileaudio.m4a; sourceTree = "<group>"; };
+		6018D9B3163F0C9B00118481 /* PMSKiAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKiAdViewController.h; path = iAd/PMSKiAdViewController.h; sourceTree = "<group>"; };
+		6018D9B4163F0C9B00118481 /* PMSKiAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKiAdViewController.m; path = iAd/PMSKiAdViewController.m; sourceTree = "<group>"; };
+		6018D9B5163F0C9B00118481 /* PMSKiAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKiAdViewController.xib; path = iAd/PMSKiAdViewController.xib; sourceTree = "<group>"; };
+		6018D9B8163F0D7300118481 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6018D9BA163F133D00118481 /* PMSKTempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKTempViewController.h; path = Temp/PMSKTempViewController.h; sourceTree = "<group>"; };
+		6018D9BB163F133D00118481 /* PMSKTempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKTempViewController.m; path = Temp/PMSKTempViewController.m; sourceTree = "<group>"; };
+		6018D9BC163F133D00118481 /* PMSKTempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKTempViewController.xib; path = Temp/PMSKTempViewController.xib; sourceTree = "<group>"; };
+		601C6C201652DD3A0073EE98 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		601C6C211652DD3A0073EE98 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		601C6C561652F4620073EE98 /* PMSKDesignPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKDesignPatternViewController.h; path = DesignPattern/PMSKDesignPatternViewController.h; sourceTree = "<group>"; };
+		601C6C571652F4620073EE98 /* PMSKDesignPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKDesignPatternViewController.m; path = DesignPattern/PMSKDesignPatternViewController.m; sourceTree = "<group>"; };
+		601C6C581652F4620073EE98 /* PMSKDesignPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKDesignPatternViewController.xib; path = DesignPattern/PMSKDesignPatternViewController.xib; sourceTree = "<group>"; };
+		6020CF0C16530E9B002AC7AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6022CADC16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKInAppPurchaseViewController.h; path = InAppPurchase/PMSKInAppPurchaseViewController.h; sourceTree = "<group>"; };
+		6022CADD16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKInAppPurchaseViewController.m; path = InAppPurchase/PMSKInAppPurchaseViewController.m; sourceTree = "<group>"; };
+		6022CADE16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKInAppPurchaseViewController.xib; path = InAppPurchase/PMSKInAppPurchaseViewController.xib; sourceTree = "<group>"; };
+		6022CAE116515B8B00B3C9C6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6046A41516518B5E00EC063D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6046A41716518BBF00EC063D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6046A4181651999D00EC063D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6046A41E16519A4B00EC063D /* PMSKMessageUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKMessageUIViewController.h; path = MessageUI/PMSKMessageUIViewController.h; sourceTree = "<group>"; };
+		6046A41F16519A4B00EC063D /* PMSKMessageUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKMessageUIViewController.m; path = MessageUI/PMSKMessageUIViewController.m; sourceTree = "<group>"; };
+		6046A42016519A4B00EC063D /* PMSKMessageUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKMessageUIViewController.xib; path = MessageUI/PMSKMessageUIViewController.xib; sourceTree = "<group>"; };
+		6057EE481648482B0088CC28 /* PMSKLocalNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKLocalNotificationViewController.h; path = LocalNotification/PMSKLocalNotificationViewController.h; sourceTree = "<group>"; };
+		6057EE491648482B0088CC28 /* PMSKLocalNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKLocalNotificationViewController.m; path = LocalNotification/PMSKLocalNotificationViewController.m; sourceTree = "<group>"; };
+		6057EE4A1648482B0088CC28 /* PMSKLocalNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKLocalNotificationViewController.xib; path = LocalNotification/PMSKLocalNotificationViewController.xib; sourceTree = "<group>"; };
+		6078B34316538A970093ACEF /* PMSKCoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKCoreAnimationViewController.h; path = CoreAnimation/PMSKCoreAnimationViewController.h; sourceTree = "<group>"; };
+		6078B34416538A970093ACEF /* PMSKCoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKCoreAnimationViewController.m; path = CoreAnimation/PMSKCoreAnimationViewController.m; sourceTree = "<group>"; };
+		6078B34516538A970093ACEF /* PMSKCoreAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKCoreAnimationViewController.xib; path = CoreAnimation/PMSKCoreAnimationViewController.xib; sourceTree = "<group>"; };
+		6078B34816538B720093ACEF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		60C9B6511655932C006DD7A6 /* PMSKNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSKNavigationViewController.h; sourceTree = "<group>"; };
+		60C9B6521655932D006DD7A6 /* PMSKNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSKNavigationViewController.m; sourceTree = "<group>"; };
+		60CCD17B16485ABE00577CB5 /* PMSKMapKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKMapKitViewController.h; path = MapKit/PMSKMapKitViewController.h; sourceTree = "<group>"; };
+		60CCD17C16485ABE00577CB5 /* PMSKMapKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKMapKitViewController.m; path = MapKit/PMSKMapKitViewController.m; sourceTree = "<group>"; };
+		60CCD17D16485ABE00577CB5 /* PMSKMapKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKMapKitViewController.xib; path = MapKit/PMSKMapKitViewController.xib; sourceTree = "<group>"; };
+		60CCD18016485B7E00577CB5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		60CCD18216485D0B00577CB5 /* PMSKMyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKMyLocation.h; path = MapKit/PMSKMyLocation.h; sourceTree = "<group>"; };
+		60CCD18316485D0B00577CB5 /* PMSKMyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKMyLocation.m; path = MapKit/PMSKMyLocation.m; sourceTree = "<group>"; };
+		60CCD1851648610E00577CB5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		60E8D58A1653EC37008BAEE1 /* PMSKVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSKVideoPlayerViewController.h; path = VideoPlayer/PMSKVideoPlayerViewController.h; sourceTree = "<group>"; };
+		60E8D58B1653EC37008BAEE1 /* PMSKVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSKVideoPlayerViewController.m; path = VideoPlayer/PMSKVideoPlayerViewController.m; sourceTree = "<group>"; };
+		60E8D58C1653EC37008BAEE1 /* PMSKVideoPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMSKVideoPlayerViewController.xib; path = VideoPlayer/PMSKVideoPlayerViewController.xib; sourceTree = "<group>"; };
+		60E8D58F1653ECE1008BAEE1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		60E8D5911653EEE8008BAEE1 /* filevideo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = filevideo.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +167,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E8D5901653ECE1008BAEE1 /* MediaPlayer.framework in Frameworks */,
+				6078B34916538B720093ACEF /* QuartzCore.framework in Frameworks */,
+				6020CF0D16530E9B002AC7AF /* AudioToolbox.framework in Frameworks */,
+				6015A82316519FB3009299A4 /* AVFoundation.framework in Frameworks */,
+				6046A4191651999E00EC063D /* MessageUI.framework in Frameworks */,
+				6022CAE216515B8B00B3C9C6 /* StoreKit.framework in Frameworks */,
+				60CCD1861648610E00577CB5 /* CoreLocation.framework in Frameworks */,
+				60CCD18116485B7E00577CB5 /* MapKit.framework in Frameworks */,
+				6018D9B9163F0D7300118481 /* iAd.framework in Frameworks */,
 				56BDA462156C3D320091ECEF /* libPMTouch.a in Frameworks */,
 				56BDA45D156C39DA0091ECEF /* libz.dylib in Frameworks */,
 				56BDA45B156C39C80091ECEF /* MobileCoreServices.framework in Frameworks */,
@@ -100,8 +193,15 @@
 		56453F74156EC06C0011BF8D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				56453F88156EC65A0011BF8D /* Networking */,
 				56453F76156EC0A00011BF8D /* Home */,
+				56453F88156EC65A0011BF8D /* Networking */,
+				601C6C551652F43A0073EE98 /* DesignPattern */,
+				605FAC2A1653FFE60012DB6A /* CocoaTouch */,
+				605FAC2B165400330012DB6A /* Media */,
+				605FAC2C1654005A0012DB6A /* CoreServices */,
+				6018D9BF163F135600118481 /* Temp */,
+				60C9B6511655932C006DD7A6 /* PMSKNavigationViewController.h */,
+				60C9B6521655932D006DD7A6 /* PMSKNavigationViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -128,7 +228,10 @@
 		56453F7C156EC22C0011BF8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				60E8D5911653EEE8008BAEE1 /* filevideo.m4v */,
+				6015A82A1651A1D9009299A4 /* fileaudio.m4a */,
 				56453F7D156EC26A0011BF8D /* Plists */,
+				6046A41616518B5E00EC063D /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -210,6 +313,15 @@
 			isa = PBXGroup;
 			children = (
 				56BDA45C156C39DA0091ECEF /* libz.dylib */,
+				60E8D58F1653ECE1008BAEE1 /* MediaPlayer.framework */,
+				6078B34816538B720093ACEF /* QuartzCore.framework */,
+				6020CF0C16530E9B002AC7AF /* AudioToolbox.framework */,
+				6015A82216519FB3009299A4 /* AVFoundation.framework */,
+				6046A4181651999D00EC063D /* MessageUI.framework */,
+				6022CAE116515B8B00B3C9C6 /* StoreKit.framework */,
+				60CCD1851648610E00577CB5 /* CoreLocation.framework */,
+				60CCD18016485B7E00577CB5 /* MapKit.framework */,
+				6018D9B8163F0D7300118481 /* iAd.framework */,
 				56BDA456156C39BC0091ECEF /* CFNetwork.framework */,
 				56BDA2CA156C24F50091ECEF /* CoreGraphics.framework */,
 				56BDA2C8156C24F50091ECEF /* Foundation.framework */,
@@ -247,6 +359,7 @@
 		56BDA2DD156C2B3C0091ECEF /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				601C6C1F1652DD180073EE98 /* MBProgressHUD */,
 				56BDA312156C2E6E0091ECEF /* PMTouch */,
 			);
 			path = Libraries;
@@ -274,6 +387,146 @@
 				56BDA337156C2EA40091ECEF /* libPMTouch.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6015A82916519FFE009299A4 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6015A82416519FF3009299A4 /* PMSKAudioPlayerViewController.h */,
+				6015A82516519FF3009299A4 /* PMSKAudioPlayerViewController.m */,
+				6015A82616519FF3009299A4 /* PMSKAudioPlayerViewController.xib */,
+			);
+			name = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		6018D9B2163F0C7E00118481 /* iAd */ = {
+			isa = PBXGroup;
+			children = (
+				6018D9B3163F0C9B00118481 /* PMSKiAdViewController.h */,
+				6018D9B4163F0C9B00118481 /* PMSKiAdViewController.m */,
+				6018D9B5163F0C9B00118481 /* PMSKiAdViewController.xib */,
+			);
+			name = iAd;
+			sourceTree = "<group>";
+		};
+		6018D9BF163F135600118481 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				6018D9BA163F133D00118481 /* PMSKTempViewController.h */,
+				6018D9BB163F133D00118481 /* PMSKTempViewController.m */,
+				6018D9BC163F133D00118481 /* PMSKTempViewController.xib */,
+			);
+			name = Temp;
+			sourceTree = "<group>";
+		};
+		601C6C1F1652DD180073EE98 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				601C6C201652DD3A0073EE98 /* MBProgressHUD.h */,
+				601C6C211652DD3A0073EE98 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		601C6C551652F43A0073EE98 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				601C6C561652F4620073EE98 /* PMSKDesignPatternViewController.h */,
+				601C6C571652F4620073EE98 /* PMSKDesignPatternViewController.m */,
+				601C6C581652F4620073EE98 /* PMSKDesignPatternViewController.xib */,
+			);
+			name = DesignPattern;
+			sourceTree = "<group>";
+		};
+		6022CADB16515A5500B3C9C6 /* InAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				6022CADC16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.h */,
+				6022CADD16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.m */,
+				6022CADE16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.xib */,
+			);
+			name = InAppPurchase;
+			sourceTree = "<group>";
+		};
+		6046A41A165199F200EC063D /* MessageUI */ = {
+			isa = PBXGroup;
+			children = (
+				6046A41E16519A4B00EC063D /* PMSKMessageUIViewController.h */,
+				6046A41F16519A4B00EC063D /* PMSKMessageUIViewController.m */,
+				6046A42016519A4B00EC063D /* PMSKMessageUIViewController.xib */,
+			);
+			name = MessageUI;
+			sourceTree = "<group>";
+		};
+		6057EE47164848060088CC28 /* LocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				6057EE481648482B0088CC28 /* PMSKLocalNotificationViewController.h */,
+				6057EE491648482B0088CC28 /* PMSKLocalNotificationViewController.m */,
+				6057EE4A1648482B0088CC28 /* PMSKLocalNotificationViewController.xib */,
+			);
+			name = LocalNotification;
+			sourceTree = "<group>";
+		};
+		605FAC2A1653FFE60012DB6A /* CocoaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				6046A41A165199F200EC063D /* MessageUI */,
+				6057EE47164848060088CC28 /* LocalNotification */,
+				60CCD17A16485AA600577CB5 /* MapKit */,
+				6018D9B2163F0C7E00118481 /* iAd */,
+			);
+			name = CocoaTouch;
+			sourceTree = "<group>";
+		};
+		605FAC2B165400330012DB6A /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				6078B34216538A750093ACEF /* CoreAnimation */,
+				6015A82916519FFE009299A4 /* AudioPlayer */,
+				60E8D5891653EC09008BAEE1 /* VideoPlayer */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		605FAC2C1654005A0012DB6A /* CoreServices */ = {
+			isa = PBXGroup;
+			children = (
+				6022CADB16515A5500B3C9C6 /* InAppPurchase */,
+			);
+			name = CoreServices;
+			sourceTree = "<group>";
+		};
+		6078B34216538A750093ACEF /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6078B34316538A970093ACEF /* PMSKCoreAnimationViewController.h */,
+				6078B34416538A970093ACEF /* PMSKCoreAnimationViewController.m */,
+				6078B34516538A970093ACEF /* PMSKCoreAnimationViewController.xib */,
+			);
+			name = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		60CCD17A16485AA600577CB5 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				60CCD18216485D0B00577CB5 /* PMSKMyLocation.h */,
+				60CCD18316485D0B00577CB5 /* PMSKMyLocation.m */,
+				60CCD17B16485ABE00577CB5 /* PMSKMapKitViewController.h */,
+				60CCD17C16485ABE00577CB5 /* PMSKMapKitViewController.m */,
+				60CCD17D16485ABE00577CB5 /* PMSKMapKitViewController.xib */,
+			);
+			name = MapKit;
+			sourceTree = "<group>";
+		};
+		60E8D5891653EC09008BAEE1 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				60E8D58A1653EC37008BAEE1 /* PMSKVideoPlayerViewController.h */,
+				60E8D58B1653EC37008BAEE1 /* PMSKVideoPlayerViewController.m */,
+				60E8D58C1653EC37008BAEE1 /* PMSKVideoPlayerViewController.xib */,
+			);
+			name = VideoPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +566,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				it,
 			);
 			mainGroup = 56BDA2B7156C24F50091ECEF;
 			productRefGroup = 56BDA2C3156C24F50091ECEF /* Products */;
@@ -350,6 +604,19 @@
 				56453F7F156EC2A90011BF8D /* ViewControllers.plist in Resources */,
 				56453F8F156EC6EB0011BF8D /* PMSKNSURLConnectionViewController.xib in Resources */,
 				56453F94156EC7010011BF8D /* PMSKASIHTTPRequestViewController.xib in Resources */,
+				6018D9B7163F0C9B00118481 /* PMSKiAdViewController.xib in Resources */,
+				6018D9BE163F133D00118481 /* PMSKTempViewController.xib in Resources */,
+				6057EE4C1648482B0088CC28 /* PMSKLocalNotificationViewController.xib in Resources */,
+				60CCD17F16485ABE00577CB5 /* PMSKMapKitViewController.xib in Resources */,
+				6022CAE016515B3700B3C9C6 /* PMSKInAppPurchaseViewController.xib in Resources */,
+				6046A41416518B5E00EC063D /* Localizable.strings in Resources */,
+				6046A42216519A4B00EC063D /* PMSKMessageUIViewController.xib in Resources */,
+				6015A82816519FF3009299A4 /* PMSKAudioPlayerViewController.xib in Resources */,
+				6015A82B1651A1D9009299A4 /* fileaudio.m4a in Resources */,
+				601C6C5A1652F4620073EE98 /* PMSKDesignPatternViewController.xib in Resources */,
+				6078B34716538A970093ACEF /* PMSKCoreAnimationViewController.xib in Resources */,
+				60E8D58E1653EC37008BAEE1 /* PMSKVideoPlayerViewController.xib in Resources */,
+				60E8D5921653EEE8008BAEE1 /* filevideo.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +634,19 @@
 				56453F93156EC7010011BF8D /* PMSKASIHTTPRequestViewController.m in Sources */,
 				56454034156EEBE30011BF8D /* PMSKPlanet.m in Sources */,
 				56454037156EED3C0011BF8D /* PMSKGalaxy.m in Sources */,
+				6018D9B6163F0C9B00118481 /* PMSKiAdViewController.m in Sources */,
+				6018D9BD163F133D00118481 /* PMSKTempViewController.m in Sources */,
+				6057EE4B1648482B0088CC28 /* PMSKLocalNotificationViewController.m in Sources */,
+				60CCD17E16485ABE00577CB5 /* PMSKMapKitViewController.m in Sources */,
+				60CCD18416485D0B00577CB5 /* PMSKMyLocation.m in Sources */,
+				6022CADF16515B3700B3C9C6 /* PMSKInAppPurchaseViewController.m in Sources */,
+				6046A42116519A4B00EC063D /* PMSKMessageUIViewController.m in Sources */,
+				6015A82716519FF3009299A4 /* PMSKAudioPlayerViewController.m in Sources */,
+				601C6C221652DD3A0073EE98 /* MBProgressHUD.m in Sources */,
+				601C6C591652F4620073EE98 /* PMSKDesignPatternViewController.m in Sources */,
+				6078B34616538A970093ACEF /* PMSKCoreAnimationViewController.m in Sources */,
+				60E8D58D1653EC37008BAEE1 /* PMSKVideoPlayerViewController.m in Sources */,
+				60C9B6531655932D006DD7A6 /* PMSKNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +667,15 @@
 				56BDA2D0156C24F50091ECEF /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6046A41616518B5E00EC063D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6046A41516518B5E00EC063D /* en */,
+				6046A41716518BBF00EC063D /* it */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -446,6 +735,7 @@
 		56BDA2DB156C24F50091ECEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PMStarterKit/PMStarterKit-Prefix.pch";
 				INFOPLIST_FILE = "PMStarterKit/PMStarterKit-Info.plist";
@@ -457,6 +747,7 @@
 		56BDA2DC156C24F50091ECEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PMStarterKit/PMStarterKit-Prefix.pch";
 				INFOPLIST_FILE = "PMStarterKit/PMStarterKit-Info.plist";

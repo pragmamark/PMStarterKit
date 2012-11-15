@@ -11,6 +11,9 @@
 #import "PMSKHomeViewController.h"
 
 @interface PMSKAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UIBackgroundTaskIdentifier bgTask;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

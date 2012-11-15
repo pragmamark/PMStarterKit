@@ -43,7 +43,10 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-
+- (BOOL)shouldAutorotate
+{
+    return YES;
+}
 
 #pragma mark - Memory Management
 
@@ -57,9 +60,6 @@
 {
     [super didReceiveMemoryWarning];
 }
-
-
-
 
 #pragma mark - UITableViewDataSource Methods
 
@@ -77,7 +77,7 @@
     
     if (nil == cell)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier] autorelease];
     }
     
     NSDictionary *element = [self.elements objectAtIndex:indexPath.row];

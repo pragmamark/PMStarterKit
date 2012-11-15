@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  PMStarterKit
+
+  Created by Stefano Zanetti on 12/11/12.
+  Copyright (c) 2012 pragmamark.org. All rights reserved.
+*/
+
+"pragmamark_inapp_purchace_log" = "Prodotti ricevuti...";
